@@ -1,0 +1,58 @@
+.container {
+  width: 320px;
+  padding: 30px;
+
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  color: white;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+}
+
+.container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+
+  border-radius: 10px;
+  border: none;
+
+  outline: none;
+}
+
+.container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #b06ab3;
+  color: white;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container button:hover {
+  background: #8e44ad;
+}
+.auth-link {
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
